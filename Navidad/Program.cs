@@ -2,18 +2,20 @@
 {
     public static void Main(string[] args)
     {
-        int width;
         int height;
 
-        Console.WriteLine("How width do you want your tree?");
-        width = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("How height do you want your tree?");
         height = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("      0");
-        for (int i = 1; i <= 6; i++)
+        for (int p = -1; p < height; p++)
         {
-            for (int l = 5; l >= i; l--)
+            Console.Write(" ");
+        }
+        Console.WriteLine("0");
+
+        for (int i = 1; i <= height; i++)
+        {
+            for (int l = height; l >= i; l--)
             {
                 Console.Write(" ");
             }
@@ -30,7 +32,11 @@
         }
         for (int ñ = 0; ñ < 2; ñ++)
         {
-            Console.WriteLine("     |||");
+            for (int p = 0; p < height; p++)
+            {
+                Console.Write(" ");
+            }
+            Console.WriteLine("|||");
         }
     }
 }
