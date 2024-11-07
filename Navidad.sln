@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navidad", "Navidad\Navidad.csproj", "{79BABEED-0C64-4677-B93C-C4564597E83A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79BABEED-0C64-4677-B93C-C4564597E83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BABEED-0C64-4677-B93C-C4564597E83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BABEED-0C64-4677-B93C-C4564597E83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BABEED-0C64-4677-B93C-C4564597E83A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45E35930-1D8F-46C2-9DCB-9E7C7EE3B761}
+	EndGlobalSection
+EndGlobal
