@@ -4,7 +4,7 @@
     {
         int height;
 
-        Console.WriteLine("How height do you want your tree?");
+        Console.WriteLine("How tall do you want your tree?");
         height = Convert.ToInt32(Console.ReadLine());
 
         for (int p = -1; p < height; p++)
