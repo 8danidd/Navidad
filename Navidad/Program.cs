@@ -1,4 +1,5 @@
-﻿class Arbol
+﻿using System;
+class Arbol
 {
     public static void Main(string[] args)
     {
